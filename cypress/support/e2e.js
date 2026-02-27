@@ -12,9 +12,5 @@
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-
-// loads .env automatically into Cypress.env()
-require('cypress-dotenv')();
-
 // Import commands.js using ES2015 syntax:
 require('./commands');
