@@ -12,6 +12,7 @@ module.exports = defineConfig({
         ...config.env,
         ...process.env
       };
+      watchForFileChanges: false
 
       // 3. We MUST return the config object so Cypress uses the new values
       return config;
